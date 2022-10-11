@@ -1,12 +1,9 @@
 # Simple pong in python for beginners
-# By @tokyoedtech
-# Link: https://www.youtube.com/watch?v=XGf2GcyHPhc
 
 import turtle
 import pygame
 from pygame import mixer
 pygame.mixer.init()
-from os.path import exists
 
 wn = turtle.Screen()
 wn.title("Pong by Nimrod")

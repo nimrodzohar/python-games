@@ -6,10 +6,10 @@ from bullet import Bullet
 class Game():
     def __init__(self):
         # player
-        player_sprite = Soldier(300, 300, 2, 'player')
+        player_sprite = Soldier(300, 300, 2, 'player', 50)
         self.player = pygame.sprite.GroupSingle(player_sprite)
         # enemy
-        enemy_sprite = Soldier(400, 300, 2, 'enemy')
+        enemy_sprite = Soldier(400, 300, 2, 'enemy', 50)
         self.enemy_group = pygame.sprite.Group()
         self.enemy_group.add(enemy_sprite)
         # bullet
